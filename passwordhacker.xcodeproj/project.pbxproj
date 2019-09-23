@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E77C346232E400800545251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77C345232E400800545251 /* AppDelegate.swift */; };
+		7E77C348232E400800545251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77C347232E400800545251 /* ViewController.swift */; };
+		7E77C34B232E400800545251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E77C349232E400800545251 /* Main.storyboard */; };
+		7E77C34D232E400900545251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E77C34C232E400900545251 /* Assets.xcassets */; };
+		7E77C350232E400900545251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E77C34E232E400900545251 /* LaunchScreen.storyboard */; };
+		7E77C35B232E400900545251 /* passwordhackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77C35A232E400900545251 /* passwordhackerTests.swift */; };
+		7E77C366232E400900545251 /* passwordhackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77C365232E400900545251 /* passwordhackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E77C357232E400900545251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E77C33A232E400800545251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E77C341232E400800545251;
+			remoteInfo = passwordhacker;
+		};
+		7E77C362232E400900545251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E77C33A232E400800545251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E77C341232E400800545251;
+			remoteInfo = passwordhacker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E77C342232E400800545251 /* passwordhacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passwordhacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E77C345232E400800545251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E77C347232E400800545251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E77C34A232E400800545251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E77C34C232E400900545251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E77C34F232E400900545251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E77C351232E400900545251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E77C356232E400900545251 /* passwordhackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passwordhackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E77C35A232E400900545251 /* passwordhackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordhackerTests.swift; sourceTree = "<group>"; };
+		7E77C35C232E400900545251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E77C361232E400900545251 /* passwordhackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passwordhackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E77C365232E400900545251 /* passwordhackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordhackerUITests.swift; sourceTree = "<group>"; };
+		7E77C367232E400900545251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E77C33F232E400800545251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E77C353232E400900545251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E77C35E232E400900545251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E77C339232E400800545251 = {
+			isa = PBXGroup;
+			children = (
+				7E77C344232E400800545251 /* passwordhacker */,
+				7E77C359232E400900545251 /* passwordhackerTests */,
+				7E77C364232E400900545251 /* passwordhackerUITests */,
+				7E77C343232E400800545251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E77C343232E400800545251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E77C342232E400800545251 /* passwordhacker.app */,
+				7E77C356232E400900545251 /* passwordhackerTests.xctest */,
+				7E77C361232E400900545251 /* passwordhackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E77C344232E400800545251 /* passwordhacker */ = {
+			isa = PBXGroup;
+			children = (
+				7E77C345232E400800545251 /* AppDelegate.swift */,
+				7E77C347232E400800545251 /* ViewController.swift */,
+				7E77C349232E400800545251 /* Main.storyboard */,
+				7E77C34C232E400900545251 /* Assets.xcassets */,
+				7E77C34E232E400900545251 /* LaunchScreen.storyboard */,
+				7E77C351232E400900545251 /* Info.plist */,
+			);
+			path = passwordhacker;
+			sourceTree = "<group>";
+		};
+		7E77C359232E400900545251 /* passwordhackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E77C35A232E400900545251 /* passwordhackerTests.swift */,
+				7E77C35C232E400900545251 /* Info.plist */,
+			);
+			path = passwordhackerTests;
+			sourceTree = "<group>";
+		};
+		7E77C364232E400900545251 /* passwordhackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E77C365232E400900545251 /* passwordhackerUITests.swift */,
+				7E77C367232E400900545251 /* Info.plist */,
+			);
+			path = passwordhackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E77C341232E400800545251 /* passwordhacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E77C36A232E400900545251 /* Build configuration list for PBXNativeTarget "passwordhacker" */;
+			buildPhases = (
+				7E77C33E232E400800545251 /* Sources */,
+				7E77C33F232E400800545251 /* Frameworks */,
+				7E77C340232E400800545251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = passwordhacker;
+			productName = passwordhacker;
+			productReference = 7E77C342232E400800545251 /* passwordhacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E77C355232E400900545251 /* passwordhackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E77C36D232E400900545251 /* Build configuration list for PBXNativeTarget "passwordhackerTests" */;
+			buildPhases = (
+				7E77C352232E400900545251 /* Sources */,
+				7E77C353232E400900545251 /* Frameworks */,
+				7E77C354232E400900545251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E77C358232E400900545251 /* PBXTargetDependency */,
+			);
+			name = passwordhackerTests;
+			productName = passwordhackerTests;
+			productReference = 7E77C356232E400900545251 /* passwordhackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E77C360232E400900545251 /* passwordhackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E77C370232E400900545251 /* Build configuration list for PBXNativeTarget "passwordhackerUITests" */;
+			buildPhases = (
+				7E77C35D232E400900545251 /* Sources */,
+				7E77C35E232E400900545251 /* Frameworks */,
+				7E77C35F232E400900545251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E77C363232E400900545251 /* PBXTargetDependency */,
+			);
+			name = passwordhackerUITests;
+			productName = passwordhackerUITests;
+			productReference = 7E77C361232E400900545251 /* passwordhackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E77C33A232E400800545251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.litech;
+				TargetAttributes = {
+					7E77C341232E400800545251 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					7E77C355232E400900545251 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7E77C341232E400800545251;
+					};
+					7E77C360232E400900545251 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7E77C341232E400800545251;
+					};
+				};
+			};
+			buildConfigurationList = 7E77C33D232E400800545251 /* Build configuration list for PBXProject "passwordhacker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E77C339232E400800545251;
+			productRefGroup = 7E77C343232E400800545251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E77C341232E400800545251 /* passwordhacker */,
+				7E77C355232E400900545251 /* passwordhackerTests */,
+				7E77C360232E400900545251 /* passwordhackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E77C340232E400800545251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E77C350232E400900545251 /* LaunchScreen.storyboard in Resources */,
+				7E77C34D232E400900545251 /* Assets.xcassets in Resources */,
+				7E77C34B232E400800545251 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E77C354232E400900545251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E77C35F232E400900545251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E77C33E232E400800545251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E77C348232E400800545251 /* ViewController.swift in Sources */,
+				7E77C346232E400800545251 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E77C352232E400900545251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E77C35B232E400900545251 /* passwordhackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E77C35D232E400900545251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E77C366232E400900545251 /* passwordhackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E77C358232E400900545251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E77C341232E400800545251 /* passwordhacker */;
+			targetProxy = 7E77C357232E400900545251 /* PBXContainerItemProxy */;
+		};
+		7E77C363232E400900545251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E77C341232E400800545251 /* passwordhacker */;
+			targetProxy = 7E77C362232E400900545251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E77C349232E400800545251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E77C34A232E400800545251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E77C34E232E400900545251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E77C34F232E400900545251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E77C368232E400900545251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E77C369232E400900545251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E77C36B232E400900545251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordhacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.passwordhacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E77C36C232E400900545251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordhacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.passwordhacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E77C36E232E400900545251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordhackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.passwordhackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passwordhacker.app/passwordhacker";
+			};
+			name = Debug;
+		};
+		7E77C36F232E400900545251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordhackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.passwordhackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passwordhacker.app/passwordhacker";
+			};
+			name = Release;
+		};
+		7E77C371232E400900545251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordhackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.passwordhackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = passwordhacker;
+			};
+			name = Debug;
+		};
+		7E77C372232E400900545251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = passwordhackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.passwordhackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = passwordhacker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E77C33D232E400800545251 /* Build configuration list for PBXProject "passwordhacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E77C368232E400900545251 /* Debug */,
+				7E77C369232E400900545251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E77C36A232E400900545251 /* Build configuration list for PBXNativeTarget "passwordhacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E77C36B232E400900545251 /* Debug */,
+				7E77C36C232E400900545251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E77C36D232E400900545251 /* Build configuration list for PBXNativeTarget "passwordhackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E77C36E232E400900545251 /* Debug */,
+				7E77C36F232E400900545251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E77C370232E400900545251 /* Build configuration list for PBXNativeTarget "passwordhackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E77C371232E400900545251 /* Debug */,
+				7E77C372232E400900545251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E77C33A232E400800545251 /* Project object */;
+}
